@@ -12,3 +12,9 @@ function chunkString(str, chunkLength) {
     
     return result;
 }
+
+console.log(chunkString("Hello, world!", 5));  // ["Hello", ", wor", "ld!"]
+console.log(chunkString("12345", 2));           // ["12", "34", "5"]
+console.log(chunkString("abc", 5));             // ["abc"]
+console.log(chunkString(null, 5));              // []
+
